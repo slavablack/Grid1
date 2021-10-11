@@ -1,0 +1,37 @@
+body {display: grid;
+    /* background-image: linear-gradient( grey, lightgrey); */
+    background-image: url(./avion.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+article{display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+}
+
+#titlu{display: grid;
+
+}
+
+h1{ display: grid;
+grid-column-start: 4;
+grid-column-end: 4;
+text-decoration: underline;}
+
+#subject{height:200px;
+width: 50rem;
+}
+button{display: flex;
+width: 4rem;
+align-items: flex-end;
+justify-content: flex-end;
+ margin-left: 46.5rem ;
+background-color: lightgoldenrodyellow;}
+
+p{word-spacing: 7px;
+font-weight: bold;
+font-size: 120%;
+background-color: whitesmoke;
+font-family: 'Andada Pro', serif;}
